@@ -56,13 +56,21 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Parcial1-AplicadaII\BLL\BLL.csproj">
+      <Project>{D329DC26-179E-4D99-A02F-F65612E115D5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{456EF7E8-DD26-4CFA-B30A-C770DC53A96E}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Parcial2-UI\Parcial2-UI.csproj">
       <Project>{FCF50164-41D3-4F17-B403-EF4F453A9618}</Project>
       <Name>Parcial2-UI</Name>
