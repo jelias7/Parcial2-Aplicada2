@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class Contexto : DbContext
-    {
-        public DbSet<Clientes> Clientes { get; set; }
-        public DbSet<Transacciones> Transacciones { get; set; }
-        public Contexto() : base("ConStr") { }
-    }
+        public class Contexto : DbContext
+        {
+            public DbSet<Clientes> Clientes { get; set; }
+            public DbSet<Transacciones> Transacciones { get; set; }
+            public Contexto() : base("ConStr") { }
+        }
 }

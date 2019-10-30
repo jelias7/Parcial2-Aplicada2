@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB4C2769-67DF-41B7-888B-FFC74F646D84}</ProjectGuid>
+    <ProjectGuid>{96ACB396-1A43-4397-BCB4-3FDEA88C85F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -60,7 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{456EF7E8-DD26-4CFA-B30A-C770DC53A96E}</Project>
+      <Project>{5FCB3508-0CDE-404F-B9A2-6F99F6745BD3}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

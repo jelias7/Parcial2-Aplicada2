@@ -175,12 +175,12 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Parcial1-AplicadaII\BLL\BLL.csproj">
-      <Project>{D329DC26-179E-4D99-A02F-F65612E115D5}</Project>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{285FA03A-0AF7-40C1-BFEA-ADBB98B12D4E}</Project>
       <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{456EF7E8-DD26-4CFA-B30A-C770DC53A96E}</Project>
+      <Project>{5FCB3508-0CDE-404F-B9A2-6F99F6745BD3}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
