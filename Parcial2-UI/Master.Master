@@ -22,7 +22,10 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Registro</a>
+        <a class="nav-link" href="/Consultas/cTransacciones.aspx">Consulta</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/Reportes/ReporteTransacciones.aspx">Reporte</a>
       </li>
     </ul>
   </div>
