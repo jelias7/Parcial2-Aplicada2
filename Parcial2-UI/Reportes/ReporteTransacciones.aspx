@@ -16,6 +16,7 @@
 <body>
     <form id="form1" runat="server">
         <div id="div">
+            <asp:ScriptManager runat="server"></asp:ScriptManager> 
           <rsweb:ReportViewer ID="MyReportViewer" runat="server"  ProcessingMode="Remote" Height="100%" Width="100%">
           <ServerReport ReportServerUrl="" ReportPath="" />
           </rsweb:ReportViewer>
